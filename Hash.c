@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <time.h>
 struct hash
 {
 
   char *nombres[20];
   int cuantos;
-  int re;			// me ayuda a saber si se le hizo rehash
 
 
 };
