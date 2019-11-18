@@ -51,7 +51,7 @@ principal ()
   agregar (&cabeza, "aldodf");
 
   mostrar (cabeza, "pedro");
-//eliminar(&cabeza, "pedro");
+  eliminar(&cabeza, "pedro");
   eliminar (&cabeza, "jo");
 
   mostrar (cabeza, "aldodf");
