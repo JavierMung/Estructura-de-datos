@@ -105,6 +105,13 @@ mostrar (struct cola *Cola)
 {
   int i = 0;
 
+  if (Cola->cuantos == 0)
+    {
+
+      printf ("\nLista vacia\n");
+
+      return;
+    }
 
   for (i = (Cola->cabeza); i < (Cola->final); i++)
     {
